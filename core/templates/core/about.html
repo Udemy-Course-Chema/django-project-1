@@ -1,0 +1,22 @@
+{% extends 'core/base.html' %}
+{% block title %}About{% endblock title %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock background %}
+
+{% block headers %}
+     <h1>About we</h1>
+     <span class="subheading">Biography</span>
+{% endblock headers %}
+
+{% block content %}
+<div class="row">   
+     <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="#" alt="">
+     </div>
+     <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">About we</h2>   
+          <p>Duis ipsum mollit anim sint enim est sit aute in eu eu. Velit deserunt ea exercitation nostrud proident in amet nostrud eiusmod laboris incididunt mollit. Duis dolore irure voluptate excepteur veniam velit laborum exercitation pariatur nulla tempor.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit...</p>
+     </div>
+</div>  
+{% endblock content %}
